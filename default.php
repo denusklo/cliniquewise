@@ -21,6 +21,7 @@
                 height: 100vh;
                 min-height: 675px;
                 background-color: #F4F5FF;
+                
             }
             p {
                 width: 100%;
