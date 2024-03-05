@@ -41,3 +41,7 @@ Route::get('/phpmailer', function () {
         echo 'The email message was sent.';
     }
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
